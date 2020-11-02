@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #18172c;
+    width: 100%;
+}
+
+header{
+    max-width:1200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+
+#nome_completo{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#descricao{
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    width: 70%;
+}
+
+.linha{
+    height: 60px;   
+    width: 1px;
+    background-color: white;
+    margin: 0px 20px;
+}
+
+h3{
+    font-size:16px;
+    font-weight: 200;
+    font-style: italic;
+    display: flex;
+    flex-direction:row;
+}
