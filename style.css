@@ -23,7 +23,7 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #nome_completo{
@@ -35,7 +35,6 @@ header{
     font-size: 16px;
     font-weight: 200;
     font-style: italic;
-    width: 70%;
 }
 
 .linha{
@@ -45,10 +44,28 @@ header{
     margin: 0px 20px;
 }
 
+.content_de_icon_do_portfolio{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}    
+
+.icone_portfolio{
+    background-color: #7cb928;
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+
 h3{
     font-size:16px;
     font-weight: 200;
     font-style: italic;
     display: flex;
     flex-direction:row;
+}
+
+a{
+    text-decoration: none;
 }
