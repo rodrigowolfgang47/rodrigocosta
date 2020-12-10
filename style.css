@@ -26,6 +26,10 @@ header{
     justify-content: space-between;
 }
 
+address{
+    max-width: 47%;
+}
+
 #nome_completo{
     font-size: 26px;
     font-weight: bold;
@@ -56,6 +60,20 @@ header{
     width: 45px;
     border-radius: 100px;
     margin-left: 30px;
+}
+
+.endereco-cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.icon-header{
+    height: 40px;
+}
+
+.icon-header g path{
+    fill: #7cb928;   
 }
 
 h3{
