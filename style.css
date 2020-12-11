@@ -14,8 +14,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    background-image: radial-gradient(circle ,#18172c, #161331 );
-    background-repeat: no-repeat;
+    background-color: #18172c;
     width: 100%;
 }
 
