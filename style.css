@@ -39,6 +39,7 @@ address{
     font-size: 16px;
     font-weight: 200;
     font-style: italic;
+    max-width: 72%;
 }
 
 .linha{
@@ -60,6 +61,9 @@ address{
     width: 45px;
     border-radius: 100px;
     margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .endereco-cabecalho{
@@ -69,11 +73,20 @@ address{
 }
 
 .icon-header{
-    height: 40px;
+    height: 25px;
+    margin-bottom: 8px;
 }
 
-.icon-header g path{
+.icon-header path{
     fill: #7cb928;   
+}
+
+.icon-header-branco{
+    height: 25px;
+}
+
+.icon-header-branco path, rect{
+    fill: white ;
 }
 
 h3{
@@ -86,4 +99,24 @@ h3{
 
 a{
     text-decoration: none;
+}
+
+.profile-title{
+    display: flex;
+    min-width: 200px;
+    height: 150px;
+}
+
+.topic-icons{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.topic-icons path{
+    fill: #7cb928
+}
+
+h2{
+    align-self: center;
+    font-size: 22pt;
 }
