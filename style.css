@@ -16,15 +16,15 @@ body{
     flex-direction: column;
     background-color: #18172c;
     width: 100%;
-    background-image: url(img/2x/imagem_de_fundo.png);
+    background-image: url(img/2x/Ativo\ 4@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 header{
-    max-width:1200px;
+    width: 100%;
+    max-width: 1170px;
     display: flex;
-    justify-content: center;
     margin-top: 80px;
     justify-content: space-between;
 }
@@ -157,6 +157,7 @@ main{
     width: 80%;
     max-width: 1170px;
     align-self: center;
+    text-align: justify;
 }
 
 .projetos-title{
@@ -165,4 +166,96 @@ main{
     height: 90px;
     margin-top: 50px;
     align-items: center;
+}
+
+.content-slider{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.project-content{
+    width: 1100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.projects{
+    width: 370px;
+    min-width: 370px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: rgb(36 35 63 / 80%);;
+    box-shadow: 3px 5px 8px 7px rgb(0 0 0 / 20%);
+    margin: 0px 9px ;
+}
+
+.botao-nav{
+    width: 1170px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.next-prev{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(255 255 255 / 20%);
+    transition: 0.5s;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-prev:hover {
+    background-color: #7cb928;
+}
+
+.setas{
+    width: 15px;
+    height: 15px;
+    fill: white;
+}
+
+.somba{
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+}
+
+.sombra-esquerda{
+    height: 100%;
+    width: 20%;
+    max-width: 200px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0 0 0 / 25%));
+}
+
+
+.sombra-direita{
+    height: 100%;
+    width: 20%;
+    max-width: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0 0 0 / 25%));
+}
+
+
+/* Aqui começa o css do footer */
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(24 23 44 / 80%);
+    margin-top: 20px;
+    box-shadow: 3px 5px 8px 7px rgb(0 0 0 / 20%);
 }
