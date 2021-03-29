@@ -16,6 +16,9 @@ body{
     flex-direction: column;
     background-color: #18172c;
     width: 100%;
+    background-image: url(img/2x/imagem_de_fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 header{
