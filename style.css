@@ -276,32 +276,6 @@ main{
     fill: white;
 }
 
-.somba-l{
-    width: 25%;
-    max-width: 250px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    align-items: center;
-    z-index: 1;
-    border-radius: 10px;
-    justify-self: start;
-}
-
-.sombra-esquerda, .sombra-direita{
-    height: 100%;
-    width: 20%;
-    max-width: 200px;
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(0 0 0 / 25%));
-    border-radius: 20px;
-}
-
-
-.sombra-direita{
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0 0 0 / 25%));
-}
-
 i.far {
     margin-right: 10px;
 }
