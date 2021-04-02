@@ -143,6 +143,21 @@ main{
     align-items: center
 }
 
+.contato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align:start;
+    justify-self: flex-start;
+    width: 100%;
+    max-width: 230px;
+}
+
+#e-mail{
+    margin-bottom: 2px;
+    height: 5px;
+}
+
 .linha-de-titulos{
     display: block;
     height: 1px;
