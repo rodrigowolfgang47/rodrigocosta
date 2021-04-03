@@ -21,6 +21,42 @@ body{
     background-size: 100%;
 }
 
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18172c;
+    align-items: center;
+    height: 100px;
+    box-shadow: 10px 5px 5px black;
+    border-top: 2px solid #7cb928;
+}
+
+ul{
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+li{
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none;
+    transition: 0.5s;
+}
+
+li:hover{
+    border-bottom: 1px solid #7cb928;
+}
+
 header{
     width: 100%;
     max-width: 1170px;
